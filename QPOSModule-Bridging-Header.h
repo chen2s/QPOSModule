@@ -17,13 +17,13 @@ FOUNDATION_EXPORT const unsigned char QPOSLibraryVersionString[];
 #define Header_h
 #ifndef QPOSModule-Bridging-Header_h
 #define QPOSModule-Bridging-Header_h
-#import <QPOSModule/pos-ios-sdk-lib/QPOSService.h>
-#import <QPOSModule/pos-ios-sdk-lib/BTDeviceFinder.h>
-#import <QPOSModule/pos-ios-sdk-lib/QPOSUtil.h>
+#import <Sources/QPOSModule/pos-ios-sdk-lib/QPOSService.h>
+#import <Sources/QPOSModule/pos-ios-sdk-lib/BTDeviceFinder.h>
+#import <Sources/QPOSModule/pos-ios-sdk-lib/QPOSUtil.h>
 //#import "ParseXMLTool.h"
-#import <QPOSModule/decryptXml/TagApp.h>
-#import <QPOSModule/decryptDataTool/TLV.h>
-#import <QPOSModule/decryptDataTool/TLVParser.h>
+#import <Sources/QPOSModule/decryptXml/TagApp.h>
+#import <Sources/QPOSModule/decryptDataTool/TLV.h>
+#import <Sources/QPOSModule/decryptDataTool/TLVParser.h>
 #endif
 
 #endif /* Header_h */
